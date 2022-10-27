@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-y:hidden;
+}
+body {
+  background: rgb(212, 212, 221);
+  background: linear-gradient(
+    90deg,
+    rgba(212, 212, 221, 1) 0%,
+    rgba(250, 250, 251, 1) 50%,
+    rgba(210, 210, 210, 1) 100%
+  );
+ 
+}
+header {
+  background-color: aliceblue;
+  height: 140px;
+  height: 100%;
+  width: 100%;
+}
+header div {
+  position: relative;
+  top: 5px;
+  left: 15px;
+
+  width: 314px;
+  height: 130px;
+  margin-bottom: 10px;
+  background-image: url("ecgroup-icon.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#reload {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  width: 80px;
+  height: 80px;
+}
+.logo{
+  width: 150px;
+  height: 100px;
+}
